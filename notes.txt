@@ -1,0 +1,16 @@
+div: untuk membangun grouping
+marging: jarak luar
+padding: jarak luar
+margin punya 4 value: atas, kanan, bawah, kiri.
+satuan margin: 10px, 20px, 30px, dll
+
+Github versioning control rules
+- git init
+- git add
+- git commit -n ""your message"
+- git remote add remote_name https://remote.link
+- git push remote_name branch_name
+
+editing repository
+- git add.
+- git commit -n "your messages"
