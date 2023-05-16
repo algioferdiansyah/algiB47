@@ -5,10 +5,14 @@
     font-family: "poppins", sans-serif;
 }
 
+body {
+    background-color: #ccc;
+}
+
 form {
     /* width: 550px; */
     margin: 50px auto;
-    padding: 24px 64px;
+    padding: 64px ;
 }
 
 form h2 {
