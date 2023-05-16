@@ -4,9 +4,17 @@
     </head>
     <body>
         <form>
-            <input height="100" type="text"/>
-            <input type="email" type="text"/>
-            <input height="number" type="text"/>
+            <input height="100" type="text" required/>
+            <input type="email" required/>
+            <input height="number" required/>
+            <select>
+                <option value="" hidden>Select</option>
+                <option>Front-End</option>
+                <option>Back-End</option>
+                <option>Fullstack</option>
+            </select>
+            <textarea rows="5" cols="10"></textarea>
+            <button>Submit</button>
         </form>
     </body>
 </html>
