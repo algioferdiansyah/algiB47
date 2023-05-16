@@ -1,20 +1,47 @@
 <html>
-    <head>
-        <title>Contact Me</title>
-    </head>
-    <body>
-        <form>
-            <input height="100" type="text" required/>
-            <input type="email" required/>
-            <input height="number" required/>
-            <select>
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="input-name">Name</label>
+            <input id="input-name" height="100" type="text" required></input>
+        </div>
+
+        <div>
+            <label for="input-email">Email</label>
+            <input id="input-email" type="email" required />
+        </div>
+
+        <div>
+            <label for="input-phone">Phone Number</label>
+            <input id="input-phone" type="number" required />
+        </div>
+
+        <div>
+            <label for="input-subject">Subject</label>
+            <select id="input-subject">
                 <option value="" hidden>Select</option>
                 <option>Front-End</option>
                 <option>Back-End</option>
                 <option>Fullstack</option>
             </select>
+        </div>
+
+        <div>
+            <label for="input-message">Your Message</label>
             <textarea rows="5" cols="10"></textarea>
+        </div>
+
+        <div>
             <button>Submit</button>
-        </form>
-    </body>
+        </div>
+        </div>
+    </form>
+</body>
+
 </html>
