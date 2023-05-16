@@ -1,0 +1,14 @@
+div untuk melakukan grouping agar mempermudah kita untuk melakukan styling
+
+margin = jarak luar element
+padding = jarak dalam element
+
+margin/padding punya 4 value, atas, kanan, bawah, kiri
+
+margin : 10px, 20px, 30px dst
+
+<- github versioning control rules ->
+- git init (mengisisiasi project)
+*remote adalah dimana tempat git tsb.
+*origin = nama file nya
+*link xxx = link
