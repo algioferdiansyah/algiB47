@@ -3,10 +3,22 @@
 <head>
     <title>Contact Me</title>
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css" />
+    <nav>
+        <div class="nav-left">
+            <img src="logo.png" alt="dumbways_logo" />
+            <a class="active" href="index.html">Home</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="nav-right">
+            <a class="button" href="contact.html">Contact Me</a>
+        </div>
+    </nav>
 </head>
 
 <body>
     <form>
+        <h2>GET IN TOUCH</h2>
         <div>
             <label for="input-name">Name</label>
             <input id="input-name" height="100" type="text" required></input>
@@ -37,9 +49,8 @@
             <textarea rows="5" cols="10"></textarea>
         </div>
 
-        <div>
+        <div class="form-button">
             <button>Submit</button>
-        </div>
         </div>
     </form>
 </body>
